@@ -1,11 +1,15 @@
-'use strict';
+﻿'use strict';
 define({
-  "courseTitle_en": "Learn-O-Matic",
-  "courseTitle_fr": "Learn-O-Matic",
-  "courseSubtitle_en": "SNAP! Tool",
-  "courseSubtitle_fr": "Outils SNAP!",
-  "seriesTitle_en": "Series Title",
-  "seriesTitle_fr": "Titre de série",
+  "courseTitle_en": "",
+  "courseTitle_fr": "",
+  "courseSubtitle_en": "",
+  "courseSubtitle_fr": "",
+  "seriesTitle_en": "Power Series",
+  "seriesTitle_fr": "Série Pouvoir",
   "addToolboxPage": [],
-  "editMode": true
+  "editMode": false,
+  "showLangSwitch":false,
+  "showHelp":false,
+  "showSitemap":false,
+  "showToolbox":false
 });

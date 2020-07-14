@@ -1,66 +1,10 @@
-//Javascript document
-/* is called on every page load, great for adding custom code to all pages*/
-function pageLoaded(){
-		if(debugMode){$("html").addClass("debug")}
-		setLtcColor();
-		$(".recomm").click(function(){
-			masterStructure.loadTarget();
-		});
-		var checkthis=masterStructure.currentSub.sPosition;
-		if(checkthis=="m6-4-24" || checkthis=="m6-4-25"){
-			exceptionOne($('input[id="q1-a"]').val());//yes this is retarded... I know. it'S an exception. because.
-		}
-		if(checkthis=="m5-4-27" || checkthis=="m5-4-28" || checkthis=="m5-4-29" || checkthis=="m5-4-30" || checkthis=="m5-4-31"|| checkthis=="m5-4-32" || checkthis=="m5-4-33" || checkthis=="m5-4-34" ){
-			exceptionTwo();//yes this is retarded... I know.
-		}
-		
-		if(checkthis.split("-")[2]>=49){
-			exceptionThree();
-		}
-
-	}
-
-
-
-
-/* list All pages */	
-function listAllPages(gab){
-	var sitemap=masterStructure.flatList;
-	var returnHtml="<ul>";
-	for(i=0;i<sitemap.length;i++){
-		if (gab.length==0 || $(sitemap[i].obj).attr("data-gab")==gab){
-			returnHtml+="<li> #"+sitemap[i].flatID+" "+sitemap[i].sPosition +" - <a href='#' onClick=\"fNav('"+sitemap[i].sPosition+"')\">"+sitemap[i].title+"</a></li>"
-		}
-	}
-	returnHtml+="</ul>"
+//DO NOT MODIFY ↓
+define([
+    'jquery'
+], function($) {
+//DO NOT MODIFY ↑
 
 	
-	return returnHtml;
-	}
-	
-/* switch the css theme */
-function setLtcColor(){
-		var cNav=masterStructure.currentNav
-	var bodySection="";
-	if(cNav.length>1){
-		switch(cNav[1]) {
-			case 1: bodySection="th";
-			break;
-			case 2: bodySection="co";
-			break;
-			case 3: bodySection="ce";
-			break;
-			case 4: bodySection="ee";
-			break;
-		}
-	}
-	$("body").attr("class", bodySection)
-	
-	}
-function toggleCss(file, timelineDestination){
-			 $("link.theme").attr("href", "./theme/"+file+".css") ;
-	}
-
 (function($){
  
     $.fn.shuffle = function() {
@@ -86,8 +30,8 @@ function toggleCss(file, timelineDestination){
  
 })(jQuery);	
 
-function exceptionOne(value){
-	$("#q1-a").after("<textarea  class=\"col-xs-12\"  rows=\"6\">"+value+"</textarea>");
+function exceptionOne(){
+	$("#q1-a").after("<textarea  class=\"col-xs-12\"  rows=\"6\">Il a dit</textarea>");
 	$("#q1-a").remove();
 	
 }
@@ -101,3 +45,62 @@ function exceptionThree(){
 	$("p.col-xs-5").addClass("col-xs-4")
 	$("p.col-xs-5").removeClass("col-xs-5");
 	}
+
+	function initialize() {
+		setEvents();
+	}
+
+	function setEvents() {
+		$(masterStructure)
+			.on("Framework:systemReady", function() {
+				systemReady();
+			})
+			.on("Framework:pageLoaded", function() {
+				pageLoaded();
+			});
+	}
+
+	/* is called only once, when the Course has loaded*/
+	function systemReady() {
+		//console.log("Interactions:systemReady");
+
+
+	}
+
+	/* is called on every page load, great for adding custom code to all pages*/
+	function pageLoaded() {
+
+		
+		//console.log("Interactions:pageLoaded");
+		$(".recomm").click(function(){masterStructure.loadTarget()})
+		setTimeout(function(){$('.qs-answers input:not([id])').each(function() { $(this).attr('id',_.uniqueId("uid"+Date.now()))});},500)
+		
+
+		// var medias = [];
+		// medias = Array.prototype.concat.apply(medias, document.getElementsByTagName('audio'));
+		// medias = Array.prototype.concat.apply(medias, document.getElementsByTagName('video'));
+		
+		// $(medias).each(function(index){
+		// 	var catched = false;
+		// 	$(this).on('playing',function(e){							
+		// 		if(!catched){		        
+		// 			catched = true; 					
+		// 			window.ga('send',{
+		// 				hitType:'event',
+		// 				eventCategory:this.nodeName,
+		// 				eventAction:'play',
+		// 				eventLabel:this.getAttribute('title')
+		// 			})
+		//      	}
+		// 	});
+		// });		
+	}
+
+	initialize();
+
+});
+
+
+
+
+
