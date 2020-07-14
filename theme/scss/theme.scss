@@ -7,7 +7,6 @@ $oral:#8C4335;
 $comprehensionecrite:#477079;
 $expressionecrite:#473C4C;
 
-
 #wb-bar .top-menu h2.series-title a,footer .container{
   color:#fff;
 }
@@ -134,7 +133,7 @@ p.reference{
 ----------------------------------------COLOR MANAGEMENT
 ---------------------------------------------------------------------------- */
 /* TH TEAL*/
-#nav2 > li.th,
+#lvl2 > li.th,
 table caption,
 body.th .qs-submit,
 .tooltip-inner {
@@ -158,7 +157,7 @@ a:visited {
   padding:5px;*/ }
 
 /* CO RED */
-#nav2 > li.co,
+#lvl2 > li.co,
 body.co .qs-submit,
 body.co .recomm {
   background-color: $oral; }
@@ -181,7 +180,7 @@ body.co .boutons-feedback > input:hover {
 .co .wb-mltmd .glyphicon {
   color: #477079;}
 /* CE PURPLE */
-#nav2 > li.ce,
+#lvl2 > li.ce,
 body.ce .qs-submit,
 body.ce .recomm {
   background-color: $comprehensionecrite }
@@ -200,7 +199,7 @@ body.ce .boutons-feedback > input:hover {
   background-color: $comprehensionecrite !important; }
 
 /* eE yellow */
-#nav2 > li.ee,
+#lvl2 > li.ee,
 body.ee .qs-submit,
 body.ee .boutons-feedback > input {
   background-color: $expressionecrite; }
@@ -236,11 +235,11 @@ body.ee .boutons-feedback > input:hover {
 .container {
   border-color: #383838; }
 
-#nav2 > li{padding-left: 20px;}
+#lvl2 > li{padding-left: 20px;}
 
 /* PALE GREY */
-#nav2 > li,
-#nav2 > li > a,
+#lvl2 > li,
+#lvl2 > li > a,
 #wb-sm .menu > li > a {
   border-color: #5b5b5b; }
 
