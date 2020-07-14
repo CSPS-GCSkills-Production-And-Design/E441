@@ -1,0 +1,203 @@
+<meta charset="UTF-8">
+<!-- TemplateParam name="file-prefix" type="text" value="module-SE-Ax-Ix-" -->
+
+
+
+<!-- TemplateParam name="rep-a" type="text" value="wa" -->
+<!-- TemplateParam name="rep-b" type="text" value="ra" -->
+<!-- TemplateParam name="rep-c" type="text" value="wa" -->
+<!-- TemplateParam name="rep-d" type="text" value="wa" -->
+<!-- TemplateParam name="rep-e" type="text" value="wa" -->
+<!-- TemplateParam name="rep-f" type="text" value="wa" -->
+<!-- TemplateParam name="rep-g" type="text" value="wa" -->
+<!-- TemplateParam name="rep-h" type="text" value="wa" -->
+<!-- TemplateParam name="rep-i" type="text" value="wa" -->
+<!-- TemplateParam name="rep-j" type="text" value="wa" -->
+<!-- TemplateParam name="rep-k" type="text" value="wa" -->
+<!-- TemplateParam name="rep-l" type="text" value="wa" -->
+<!-- TemplateParam name="rep-m" type="text" value="wa" -->
+
+<!-- TemplateParam name="optional-e" type="boolean" value="false" -->
+<!-- TemplateParam name="optional-f" type="boolean" value="false" -->
+<!-- TemplateParam name="optional-g" type="boolean" value="false" -->
+<!-- TemplateParam name="optional-h" type="boolean" value="false" -->
+<!-- TemplateParam name="optional-i" type="boolean" value="false" -->
+<!-- TemplateParam name="optional-j" type="boolean" value="false" -->
+<!-- TemplateParam name="optional-k" type="boolean" value="false" -->
+<!-- TemplateParam name="optional-l" type="boolean" value="false" -->
+<!-- TemplateParam name="optional-m" type="boolean" value="false" -->
+
+
+<!-- TemplateParam name="x-showaudio" type="boolean" value="true" -->
+
+
+<h1><!-- TemplateBeginEditable name="title" -->Activity xxx.xxx<!-- TemplateEndEditable --></h1>
+
+<section role="content" class="col-md-12">
+	<div class="instructions audio">
+    	<figure class="wb-mltmd small">
+            <audio title="Complementary audio">
+                <source src="content/medias/audios/@@(_document['file-prefix'])@@-D.mp3" type="audio/mp3" />
+            </audio>
+
+        </figure>
+        <span><!-- TemplateBeginEditable name="instructions" -->Listen to the discussion and choose the statement that best describes the situation.<!-- TemplateEndEditable --></span>
+	</div>
+</section>
+
+<div class="row gab gabarit-co-2">
+    <section role="content" class="col-md-6">
+        <!-- TemplateBeginEditable name="img" --><img src="content/medias/images/xxximgxxx.jpg" class="img-responsive" alt="xxxaltxxx"><!-- TemplateEndEditable -->
+        <figure class="wb-mltmd">
+            <audio title="Discussion"><source src="content/medias/audios/@@(_document['file-prefix'])@@.mp3" type="audio/mp3" /></audio>
+            <figcaption>
+                  <details id="inline-captions">
+                  <summary>Transcript</summary>
+                  	<!-- TemplateBeginEditable name="transcript" -->
+					<dl class="visible-caption dialogue">
+						
+                    </dl>
+					<!-- TemplateEndEditable -->
+                    </details>
+            </figcaption>
+        </figure>
+    </section>
+
+    <section role="content" class="col-md-6">
+        <!-- THIS IS AN ACTIVITY -->
+        <div class="qs-elearning-activity" id="activity-1" data-activity-type="simple" data-tracking="false" data-simple-act-disable-mode="any" data-dis-bkp="any||never||onright">
+            <div class="clearfix"></div>
+            <!-- THIS IS THE GUIDLINES/INSTRUCTIONS ALONG WITH START QUIZ BUTTON (OPTIONAL)  -->
+            <!-- THIS IS AN EXERCISE -->
+			<div class="qs-exercise" id="exercise-1" data-question-type="type-2" data-feedback-type="instant" data-random-answers="false" >
+            <form>
+                <!-- THIS IS A QUESTION -->
+                <div class="qs-question" id="q1">
+                <fieldset>
+                    <!-- QUESTION MAIN TEXT -->
+                    <div class="qs-text"><legend>Answer choices: </legend></div>
+                    <!-- QUESTION ANSWERS -->
+                    <div class="qs-answers">
+                  		<div class="row">
+	                       	<input class="@@(_document['rep-a'])@@ col-xs-1" name="q1" id="q1-a" type="checkbox">
+                    		<!-- TemplateBeginIf cond="_document['x-showaudio']" --><figure class="wb-mltmd small col-xs-1"><audio title="Complementary audio"><source src="content/medias/audios/@@(_document['file-prefix'])@@-1.mp3" type="audio/mp3" /></audio></figure><!-- TemplateEndIf -->
+                      		<label for="q1-a" class="col-xs-9"><!-- TemplateBeginEditable name="option-a" -->xxxoptionaxxx<!-- TemplateEndEditable --></label>
+                      		<span class="qs-vsfbh col-xs-1"></span>
+                    	</div>
+                        <div class="row">
+                        	<input class="@@(_document['rep-b'])@@ col-xs-1" name="q1" id="q1-b" type="checkbox">
+                            <!-- TemplateBeginIf cond="_document['x-showaudio']" --><figure class="wb-mltmd small col-xs-1"><audio title="Complementary audio"><source src="content/medias/audios/@@(_document['file-prefix'])@@-2.mp3" type="audio/mp3" /></audio></figure><!-- TemplateEndIf -->
+                            <label for="q1-b" class="col-xs-9"><!-- TemplateBeginEditable name="option-b" -->xxxoptionbxxx<!-- TemplateEndEditable --></label>
+                            <span class="qs-vsfbh col-xs-1"></span>
+                        </div>
+                        <div class="row">
+                        	<input class="@@(_document['rep-c'])@@ col-xs-1" name="q1" id="q1-c" type="checkbox">
+                            <!-- TemplateBeginIf cond="_document['x-showaudio']" --><figure class="wb-mltmd small col-xs-1"><audio title="Complementary audio"><source src="content/medias/audios/@@(_document['file-prefix'])@@-3.mp3" type="audio/mp3" /></audio></figure><!-- TemplateEndIf -->
+                            <label for="q1-c" class="col-xs-9"><!-- TemplateBeginEditable name="option-c" -->xxxoptioncxxx<!-- TemplateEndEditable --></label>
+                            <span class="qs-vsfbh col-xs-1"></span>
+                        </div>
+                        <div class="row">
+                        	<input class="@@(_document['rep-d'])@@ col-xs-1" name="q1" id="q1-d" type="checkbox">
+                            <!-- TemplateBeginIf cond="_document['x-showaudio']" --><figure class="wb-mltmd small col-xs-1"><audio title="Complementary audio"><source src="content/medias/audios/@@(_document['file-prefix'])@@-4.mp3" type="audio/mp3" /></audio></figure><!-- TemplateEndIf -->             
+                            <label for="q1-d" class="col-xs-9"><!-- TemplateBeginEditable name="option-d" -->xxxoptiondxxx<!-- TemplateEndEditable --></label>
+                            <span class="qs-vsfbh col-xs-1"></span>
+                        </div>	
+
+
+						<!-- TemplateBeginIf cond="_document['optional-e']" -->
+                        <div class="row">
+                        	<input class="@@(_document['rep-e'])@@ col-xs-1" name="q1" id="q1-e" type="checkbox">
+                            <!-- TemplateBeginIf cond="_document['x-showaudio']" --><figure class="wb-mltmd small col-xs-1"><audio title="Complementary audio"><source src="content/medias/audios/@@(_document['file-prefix'])@@-5.mp3" type="audio/mp3" /></audio></figure><!-- TemplateEndIf -->             
+                            <label for="q1-e" class="col-xs-9"><!-- TemplateBeginEditable name="option-e" -->xxxoptionexxx<!-- TemplateEndEditable --></label>
+                            <span class="qs-vsfbh col-xs-1"></span>
+						</div>
+						<!-- TemplateEndIf -->
+						<!-- TemplateBeginIf cond="_document['optional-f']" -->                        
+                        <div class="row">
+                        	<input class="@@(_document['rep-f'])@@ col-xs-1" name="q1" id="q1-f" type="checkbox">
+                            <!-- TemplateBeginIf cond="_document['x-showaudio']" --><figure class="wb-mltmd small col-xs-1"><audio title="Complementary audio"><source src="content/medias/audios/@@(_document['file-prefix'])@@-6.mp3" type="audio/mp3" /></audio></figure><!-- TemplateEndIf -->             
+                            <label for="q1-f" class="col-xs-9"><!-- TemplateBeginEditable name="option-f" -->xxxoptionfxxx<!-- TemplateEndEditable --></label>
+                            <span class="qs-vsfbh col-xs-1"></span>
+						</div>
+						<!-- TemplateEndIf -->
+						<!-- TemplateBeginIf cond="_document['optional-g']" -->                        
+                        <div class="row">
+                        	<input class="@@(_document['rep-g'])@@ col-xs-1" name="q1" id="q1-g" type="checkbox">
+                            <!-- TemplateBeginIf cond="_document['x-showaudio']" --><figure class="wb-mltmd small col-xs-1"><audio title="Complementary audio"><source src="content/medias/audios/@@(_document['file-prefix'])@@-7.mp3" type="audio/mp3" /></audio></figure><!-- TemplateEndIf -->             
+                            <label for="q1-g" class="col-xs-9"><!-- TemplateBeginEditable name="option-g" -->xxxoptiongxxx<!-- TemplateEndEditable --></label>
+                            <span class="qs-vsfbh col-xs-1"></span>
+						</div>
+						<!-- TemplateEndIf -->                        
+						<!-- TemplateBeginIf cond="_document['optional-h']" -->
+                        <div class="row">
+                        	<input class="@@(_document['rep-h'])@@ col-xs-1" name="q1" id="q1-h" type="checkbox">
+                            <!-- TemplateBeginIf cond="_document['x-showaudio']" --><figure class="wb-mltmd small col-xs-1"><audio title="Complementary audio"><source src="content/medias/audios/@@(_document['file-prefix'])@@-8.mp3" type="audio/mp3" /></audio></figure><!-- TemplateEndIf -->             
+                            <label for="q1-h" class="col-xs-9"><!-- TemplateBeginEditable name="option-h" -->xxxoptionhxxx<!-- TemplateEndEditable --></label>
+                            <span class="qs-vsfbh col-xs-1"></span>                            
+						</div>
+						<!-- TemplateEndIf -->
+						<!-- TemplateBeginIf cond="_document['optional-i']" -->
+                        <div class="row">
+                        	<input class="@@(_document['rep-i'])@@ col-xs-1" name="q1" id="q1-i" type="checkbox">
+                            <!-- TemplateBeginIf cond="_document['x-showaudio']" --><figure class="wb-mltmd small col-xs-1"><audio title="Complementary audio"><source src="content/medias/audios/@@(_document['file-prefix'])@@-9.mp3" type="audio/mp3" /></audio></figure><!-- TemplateEndIf -->             
+                            <label for="q1-i" class="col-xs-9"><!-- TemplateBeginEditable name="option-i" -->xxxoptionixxx<!-- TemplateEndEditable --></label>
+                            <span class="qs-vsfbh col-xs-1"></span>                            
+						</div>
+						<!-- TemplateEndIf -->    
+						<!-- TemplateBeginIf cond="_document['optional-j']" -->
+                        <div class="row">
+                        	<input class="@@(_document['rep-j'])@@ col-xs-1" name="q1" id="q1-j" type="checkbox">
+                            <!-- TemplateBeginIf cond="_document['x-showaudio']" --><figure class="wb-mltmd small col-xs-1"><audio title="Complementary audio"><source src="content/medias/audios/@@(_document['file-prefix'])@@-9.mp3" type="audio/mp3" /></audio></figure><!-- TemplateEndIf -->             
+                            <label for="q1-j" class="col-xs-9"><!-- TemplateBeginEditable name="option-j" -->xxxoptionixxx<!-- TemplateEndEditable --></label>
+                            <span class="qs-vsfbh col-xs-1"></span>                            
+						</div>
+						<!-- TemplateEndIf -->   
+						<!-- TemplateBeginIf cond="_document['optional-k']" -->
+                        <div class="row">
+                        	<input class="@@(_document['rep-k'])@@ col-xs-1" name="q1" id="q1-k" type="checkbox">
+                            <!-- TemplateBeginIf cond="_document['x-showaudio']" --><figure class="wb-mltmd small col-xs-1"><audio title="Complementary audio"><source src="content/medias/audios/@@(_document['file-prefix'])@@-9.mp3" type="audio/mp3" /></audio></figure><!-- TemplateEndIf -->             
+                            <label for="q1-k" class="col-xs-9"><!-- TemplateBeginEditable name="option-k" -->xxxoptionkxxx<!-- TemplateEndEditable --></label>
+                            <span class="qs-vsfbh col-xs-1"></span>                            
+						</div>
+						<!-- TemplateEndIf -->   
+						<!-- TemplateBeginIf cond="_document['optional-l']" -->
+                        <div class="row">
+                        	<input class="@@(_document['rep-l'])@@ col-xs-1" name="q1" id="q1-l" type="checkbox">
+                            <!-- TemplateBeginIf cond="_document['x-showaudio']" --><figure class="wb-mltmd small col-xs-1"><audio title="Complementary audio"><source src="content/medias/audios/@@(_document['file-prefix'])@@-9.mp3" type="audio/mp3" /></audio></figure><!-- TemplateEndIf -->             
+                            <label for="q1-l" class="col-xs-9"><!-- TemplateBeginEditable name="option-l" -->xxxoptionlxxx<!-- TemplateEndEditable --></label>
+                            <span class="qs-vsfbh col-xs-1"></span>                            
+						</div>
+						<!-- TemplateEndIf -->   
+						<!-- TemplateBeginIf cond="_document['optional-m']" -->
+                        <div class="row">
+                        	<input class="@@(_document['rep-m'])@@ col-xs-1" name="q1" id="q1-m" type="checkbox">
+                            <!-- TemplateBeginIf cond="_document['x-showaudio']" --><figure class="wb-mltmd small col-xs-1"><audio title="Complementary audio"><source src="content/medias/audios/@@(_document['file-prefix'])@@-9.mp3" type="audio/mp3" /></audio></figure><!-- TemplateEndIf -->             
+                            <label for="q1-m" class="col-xs-9"><!-- TemplateBeginEditable name="option-m" -->xxxoptionmxxx<!-- TemplateEndEditable --></label>
+                            <span class="qs-vsfbh col-xs-1"></span>                            
+						</div>
+						<!-- TemplateEndIf -->                                                                                                               
+                    <div class="boutons-feedback"><span class="wb-inv">Click 'Confirm' and go back to see the feedback.</span><input class="qs-submit btn btn-default" type="button" value="Confirm"><input class="recomm btn btn-default" type="button" value="Restart" onclick="masterStructure.loadTarget()"></div>
+                </fieldset>
+                </div>
+            </form>
+        	</div>
+        <!-- END TESTING PERMS -->
+        </div>
+
+    </section>
+
+</div>
+
+    
+        <script src="js/plugins/qsbeta.js"></script>
+        <script type="text/javascript">	 
+    
+        $(document).ready(function(e) {
+            wb.add('.wb-mltmd');
+             qsObj.qsInit();
+            $('#activity-1').show();               
+			
+			$(".qs-submit").attr("onclick", "$('figcaption').addClass('emboldened')")
+        });	
+            
+        </script>

@@ -1,0 +1,106 @@
+<!-- InstanceBegin template="/Templates/gab-10.dwt" codeOutsideHTMLIsLocked="false" --><meta charset="UTF-8">
+<!-- InstanceParam name="rep-1" type="text" value="If that were the case, " -->
+<!-- InstanceParam name="rep-2" type="text" value="I would " -->
+<!-- InstanceParam name="rep-3" type="text" value="speak to him " -->
+<!-- InstanceParam name="rep-4" type="text" value="directly " -->
+<!-- InstanceParam name="rep-5" type="text" value="about the situation " -->
+<!-- InstanceParam name="rep-6" type="text" value="so that we could " -->
+<!-- InstanceParam name="rep-7" type="text" value="resolve the issue " -->
+<!-- InstanceParam name="rep-8" type="text" value="as quickly as possible." -->
+
+
+<h1><!-- InstanceBeginEditable name="title" -->Activity 1.4<!-- InstanceEndEditable --></h1>
+
+<section role="content" class="col-sm-12">
+	<div class="instructions">
+        <span><!-- InstanceBeginEditable name="instructions" -->Select the elements in the correct order to construct a sentence.<!-- InstanceEndEditable --></span>
+	</div>
+</section>
+<!-- InstanceBeginEditable name="question" --><p class="indice col-sm-12">If your cubicle neighbour were noisy, what would  you do?</p>
+<!-- InstanceEndEditable -->
+<div class="row gab gabarit-ee-10 zone-mots">
+	<span class="wb-inv">The words chosen from the following list will go towards building the sentance in the textbox after.</span>
+    <div class="col-xs-12 col-md-3 box"><a href="javascript:;" class="clickable" onclick="return false">If that were the case, </a></div>
+	<div class="col-xs-12 col-md-3 box"><a href="javascript:;" class="clickable" onclick="return false">I would </a></div>
+	<div class="col-xs-12 col-md-3 box"><a href="javascript:;" class="clickable" onclick="return false">speak to him </a></div>
+	<div class="col-xs-12 col-md-3 box"><a href="javascript:;" class="clickable" onclick="return false">directly </a></div>
+	<div class="col-xs-12 col-md-3 box"><a href="javascript:;" class="clickable" onclick="return false">about the situation </a></div>
+	<div class="col-xs-12 col-md-3 box"><a href="javascript:;" class="clickable" onclick="return false">so that we could </a></div>
+	<div class="col-xs-12 col-md-3 box"><a href="javascript:;" class="clickable" onclick="return false">resolve the issue </a></div>
+	<div class="col-xs-12 col-md-3 box"><a href="javascript:;" class="clickable" onclick="return false">as quickly as possible.</a></div>
+</div>
+
+
+
+
+<div class="row gab gabarit-ee-10">
+
+    <section class="col-md-12">
+    <!-- THIS IS AN ACTIVITY -->
+    	<div class="qs-elearning-activity" id="activity-1" data-activity-type="simple" data-tracking="false" >
+            <!-- END TESTING PERMANENTS -->
+            <div class="clearfix"></div>
+            <!-- THIS IS AN EXERCISE -->
+            <div class="qs-exercise" id="exercise-1" data-question-type="type-3"  data-feedback-type="instant" >
+            <form>
+                <!-- THIS IS A QUESTION -->
+                <div class="qs-question" id="q1">
+                <fieldset>
+                    <!-- QUESTION MAIN TEXT -->
+                    <div class="qs-text row">					
+                        <legend class=" col-xs-12">Sentence:</legend>
+                    </div>
+                    <!-- QUESTION ANSWERS -->
+                    <div class="qs-answers row">
+                        <div class="type-here col-xs-11">&nbsp;</div>
+                        <input data-rep="If that were the case, I would speak to him directly about the situation so that we could resolve the issue as quickly as possible." id="q1-a" type="text" class="wb-inv"  disabled>
+                        <span class="qs-vsfbh col-xs-1">X</span>
+                    </div>
+                    <!-- QUESTION FEEDBACK (default hidden) (OPTIONAL) -->
+                    <div class="qs-feedback row" style="display:none;">
+    
+                        <div class="qs-generic">
+                        	<p class="rep">Answer:</p>
+	                        <p class="sugg">If that were the case, I would speak to him directly about the situation so that we could resolve the issue as quickly as possible.</p>
+                        </div>
+    
+                    </div>
+                    <div class="boutons-feedback row"><span class="wb-inv">Click 'Confirm' and go back to see the feedback.</span><input class="qs-submit btn btn-default" type="button" value="Confirm"><input class="recomm btn btn-default" type="button" value="Restart"></div>                                    
+                    
+                </fieldset>
+                </div>
+      
+                                
+            </form>
+            </div>
+        </div>
+       
+        <!-- END TESTING PERMS -->
+        <script src="js/plugins/qsbeta.js"></script>
+        <script type="text/javascript">	 
+    
+        $(document).ready(function(e) {
+             qsObj.qsInit();
+            $('#activity-1').show();               
+        });	
+		
+		$(document).ready(function(e) {
+			$(".clickable").each(function( index ) {
+				$(this).click(function(e){
+					var thisText=$(this).html()
+					var phrase=$("input").eq(0).val();
+					if (!$(this).hasClass("disabled")){
+						$(".type-here").eq(0).html(phrase+thisText)
+						$("input").eq(0).val(phrase+thisText)
+					}
+					$(this).addClass('disabled')
+					$(this).attr("tabindex", "-1");
+					$(this).html(thisText+"<span class='wb-inv'>This option is no longer available</span>")
+				})
+			})
+			$('.zone-mots div').shuffle();
+        });	
+            
+        </script>
+    </section>
+</div><!-- InstanceEnd -->

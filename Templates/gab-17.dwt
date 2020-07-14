@@ -1,0 +1,86 @@
+<meta charset="UTF-8">
+<!-- TemplateParam name="class-a" type="text" value="wa" -->
+<!-- TemplateParam name="class-b" type="text" value="ra" -->
+<!-- TemplateParam name="class-c" type="text" value="wa" -->
+<!-- TemplateParam name="class-d" type="text" value="wa" -->
+<h1><!-- TemplateBeginEditable name="title" -->Activity xxx.xxx<!-- TemplateEndEditable --></h1>
+
+<section role="content" class="col-md-12">
+	<div class="instructions"><!-- TemplateBeginEditable name="instructions" -->Select the word that does not belong. <!-- TemplateEndEditable --></div>
+</section>
+
+
+<div class="row gab gabarit-ee-17">
+
+
+    <section role="content" class="col-md-12">
+        <!-- THIS IS AN ACTIVITY -->
+        <div class="qs-elearning-activity" id="activity-1" data-activity-type="simple" data-tracking="false"data-simple-act-disable-mode="onright" data-dis-bkp="any||never||onright">
+            <div class="clearfix"></div>
+            <!-- THIS IS THE GUIDLINES/INSTRUCTIONS ALONG WITH START QUIZ BUTTON (OPTIONAL)  -->
+            <!-- THIS IS AN EXERCISE -->
+            <div class="qs-exercise" id="exercise-1" data-question-type="type-1" data-feedback-type="instant" >
+            <form>
+                <!-- THIS IS A QUESTION -->
+                <div class="qs-question" id="q1">
+                <fieldset>
+                    <!-- QUESTION MAIN TEXT -->
+
+                    <!-- QUESTION ANSWERS -->
+                    <div class="qs-answers row">
+
+                            <div class="col-xs-12">
+							
+                              	<input class="@@(_document['class-a'])@@" name="q1" id="q1-a" type="radio">
+                              	<label for="q1-a"><!-- TemplateBeginEditable name="option-a" -->xxxoptionaxxx<!-- TemplateEndEditable --></label>
+                            	<span class="qs-vsfbh"></span>
+                      </div>
+                            <div class="col-xs-12">
+							
+                                <input class="@@(_document['class-b'])@@" name="q1" id="q1-b" type="radio">
+                                <label for="q1-b"><!-- TemplateBeginEditable name="option-b" -->xxxoptionbxxx<!-- TemplateEndEditable --></label>
+							
+                                <span class="qs-vsfbh"></span>
+                            </div>
+                            <div class="col-xs-12">
+							
+                                <input class="@@(_document['class-c'])@@" name="q1" id="q1-c" type="radio">
+                                <label for="q1-c"><!-- TemplateBeginEditable name="option-c" -->xxxoptioncxxx<!-- TemplateEndEditable --></label>
+							
+                                <span class="qs-vsfbh"></span>
+                            </div>
+                            <div class="col-xs-12">
+							
+                                <input class="@@(_document['class-d'])@@" name="q1" id="q1-d" type="radio">
+                                <label for="q1-d"><!-- TemplateBeginEditable name="option-d" -->xxxoptiondxxx<!-- TemplateEndEditable --></label>
+							
+                                <span class="qs-vsfbh"></span>
+                            </div>	
+
+                    </div>
+
+    
+                                    
+                    <div class="boutons-feedback"><span class="wb-inv">Click 'Confirm' and go back to see the feedback.</span><input class="qs-submit btn btn-default" type="button" value="Confirm"><input class="recomm btn btn-default" type="button" value="Restart" onclick="masterStructure.loadTarget()"></div>
+                </fieldset>
+                </div>
+            </form>
+        	</div>
+        <!-- END TESTING PERMS -->
+        </div>
+    
+
+    </section>
+</div>    
+        <script src="js/plugins/qsbeta.js"></script>
+        <script type="text/javascript">	 
+    
+        $(document).ready(function(e) {
+            
+				wb.add('.wb-mltmd');
+				qsObj.qsInit();
+				$('#activity-1').show(); 
+			
+        });	
+            
+        </script>
