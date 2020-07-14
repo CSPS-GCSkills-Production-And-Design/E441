@@ -3626,13 +3626,13 @@ fCe('type-5 → test for highlite all mode...');
 		//----
 		//
 		//CHECK FOR ALL NECESSARY ID
-		$('.qs-elearning-activity, .qs-exercise, .qs-question, .qs-answers input:not(.qs-submit):not(.qs-prevquestion):not(.qs-nextquestion)').each(function(){
-			if($(this).attr('id')===undefined){
-				all_data_params_valid = false;
-				//throw new Error('Missing ID for .qs-elearning-activity/.qs-exercise/.qs-question');
-				errStack.push('Missing ID for .qs-elearning-activity/.qs-exercise/.qs-question/.qs-answers input:not(.qs-submit):not(.qs-prevquestion):not(.qs-nextquestion)');
-			};
-		});
+		// $('.qs-elearning-activity, .qs-exercise, .qs-question, .qs-answers input:not(.qs-submit):not(.qs-prevquestion):not(.qs-nextquestion)').each(function(){
+		// 	if($(this).attr('id')===undefined){
+		// 		all_data_params_valid = false;
+		// 		//throw new Error('Missing ID for .qs-elearning-activity/.qs-exercise/.qs-question');
+		// 		errStack.push('Missing ID for .qs-elearning-activity/.qs-exercise/.qs-question/.qs-answers input:not(.qs-submit):not(.qs-prevquestion):not(.qs-nextquestion)');
+		// 	};
+		// });
 
 		//CHECK IF CORRECT INPUT USED IN RELATED QUESTION (ACCORDING TO CLOSEST data-question-type OR setting objDefVal.question.question_type)
 		//NEEDS *OPTIMIZING*
