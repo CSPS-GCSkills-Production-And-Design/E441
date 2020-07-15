@@ -1205,6 +1205,26 @@ html[data-nav*="-1-"]{
 footer > div.container {
   background-color: $theory;
 }
+
+.wb-mm-ctrls .btn {
+    background: #fff;
+    color: $theory;
+  }
+
+  .wb-mm-ctrls progress[value]::-webkit-progress-value {
+  background-image:
+     -webkit-linear-gradient(-45deg, 
+                             transparent 33%, rgba(0, 0, 0, .1) 33%, 
+                             rgba(0,0, 0, .1) 66%, transparent 66%),
+     -webkit-linear-gradient(top, 
+                             rgba(255, 255, 255, .25), 
+                             rgba(0, 0, 0, .25)),
+     -webkit-linear-gradient(left, $theory, $oral);
+
+    border-radius: 2px; 
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+    }
+
 }
 
 /* ---------------------------------
@@ -1217,8 +1237,8 @@ html[data-nav*="-2-"]{
 footer > div.container {
   background-color: $oral }
   .wb-mm-ctrls .btn {
-    background: $oral;
-    color: #fff;
+    background: #fff;
+    color: $oral;
     
     }
 }
